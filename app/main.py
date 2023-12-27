@@ -10,7 +10,8 @@ from app.helpers.helper import *
 
 app = FastAPI(
     title='Sample-app FastAPI and Docker',
-    version = '1.0.0'
+    version = '1.0.0',
+    openapi_version="3.0.2",
 )
 
 
